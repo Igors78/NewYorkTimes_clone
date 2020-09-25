@@ -5,8 +5,13 @@ body {
 
 nav {
     width: 100%;
-//    background: rgb(207, 49, 49);
+ background: rgb(207, 49, 49);
   display: flex;
   
   justify-content: space-between;
+}
+
+button {
+  background: #326891;
+  color: #fff;
 }
