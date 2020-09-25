@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mint.com's signup clone page
+# The NewYork Times Page
 
 > This project is made as part of Microverse HTML/CSS curriculum
 
@@ -33,11 +33,11 @@ Sample of static web page with form elements
 - Twitter: [@twitter](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
-👤 **Alan Solis**
+👤 **Adesuyi Adetola**
 
-- GitHub: [@github](https://github.com/warblo001)
-- Twitter: [@twitter](https://twitter.com/Alan55572391)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alan-solis-b567b044/)
+- GitHub: [@github](https://github.com/Arinpe)
+- Twitter: [@twitter](https://twitter.com/_detola_)
+- LinkedIn: [LinkedIn]https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
 
 ## Show your support
 
