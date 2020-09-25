@@ -1,8 +1,12 @@
 body {
-    width: 100%;
-    font-size: 20px;
+  width: 100%;
+  font-size: 20px;
 }
 
-.header__navbar {
-    display: flex;
+nav {
+    width: 100%;
+//    background: rgb(207, 49, 49);
+  display: flex;
+  
+  justify-content: space-between;
 }
