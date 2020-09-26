@@ -1,27 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 
-body {
-  width: 100%;
-  font-size: 20px;
-  font-family: 'Libre Franklin', sans-serif;
-}
-
-nav {
-    width: 100%;
-    background: rgb(207, 49, 49);
-    display: flex;
+main {
   
-  justify-content: space-between;
 }
-
-button {
-  background: #567b95;
-  color: #fff;
-  padding: 11px 12px 8px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  font-weight: 700;
-  font-size: 11px;
-}
-
-

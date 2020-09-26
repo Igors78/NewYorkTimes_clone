@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    line-height: normal;
+  }
+/*HEADER*/
+  nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  button {
+    background: #567b95;
+    color: #fff;
+    padding: 11px 12px 8px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 11px;
+  }
