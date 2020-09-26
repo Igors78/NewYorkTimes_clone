@@ -27,7 +27,7 @@ main {
   flex-direction: row;
   align-content: stretch;
 
-  .articlemain__center{
+  .articlemain__center {
     width: 75%;
     padding: 0 0 0 25%;
     background: rgb(240, 230, 143);
@@ -35,13 +35,45 @@ main {
 
   .articlemain__aside {
     width: 25%;
-    padding: 0 0 0 0;
-    background: 1px solid rgb(204, 223, 199);
+    padding: 0 30px 0 30px;
+    background: rgb(54, 201, 14);
+    img {
+      width: 75px;
+      height: 75px;
+    }
   }
+  .aside__body_item {
+    display: flex;
 
+    .body__item_left {
+      flex: 1 1 30%;
+    }
+
+    .body__item_right {
+      flex: 1 1 60%;
+    }
+  }
 }
 // Theory section block with background image and grid container over it
 .sectiontheory {
   width: 75%;
+  margin: 0 auto;
+  .sectiontheory__grid {
+    border: 1px solid green;
+    background-image: url("/img/theory1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sectiontheory__grid_item {
+    p {
+      //visibility: hidden;
+      background: transparent;
+    }
+  }
+}
+// Section after inserted theory block
+.articlebottom {
+  width: 50%;
   margin: 0 auto;
 }

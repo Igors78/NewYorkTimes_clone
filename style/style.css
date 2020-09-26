@@ -41,12 +41,52 @@ main {
 
 .articlemain .articlemain__aside {
   width: 25%;
-  padding: 0 0 0 0;
-  background: 1px solid #ccdfc7;
+  padding: 0 30px 0 30px;
+  background: #36c90e;
+}
+
+.articlemain .articlemain__aside img {
+  width: 75px;
+  height: 75px;
+}
+
+.articlemain .aside__body_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.articlemain .aside__body_item .body__item_left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+}
+
+.articlemain .aside__body_item .body__item_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
 }
 
 .sectiontheory {
   width: 75%;
+  margin: 0 auto;
+}
+
+.sectiontheory .sectiontheory__grid {
+  border: 1px solid green;
+  background-image: url("/img/theory1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sectiontheory .sectiontheory__grid_item p {
+  background: transparent;
+}
+
+.articlebottom {
+  width: 50%;
   margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
