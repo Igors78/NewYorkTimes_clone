@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 
+body {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: normal;
+}
+//MAIN section goes all way down to the footer
 main {
   width: 100%;
   margin: 60px auto 0 auto;
 }
-  
+// Main section heading with image
 .heading {
   margin: 0 auto;
   text-align: center;
@@ -14,21 +21,26 @@ main {
     width: 945px;
   }
 }
-
+// Article block with aside section
 .articlemain {
   display: flex;
+  flex-direction: row;
   align-content: stretch;
 
-  .articlemain__aside {
-    flex: 1 1 25%;
-    background: 1px solid rgb(218, 211, 211);
-  }
-
   .articlemain__center{
-    flex: 1 1 50%;
+    width: 75%;
+    padding: 0 0 0 25%;
+    background: rgb(240, 230, 143);
   }
-}
 
+  .articlemain__aside {
+    width: 25%;
+    padding: 0 0 0 0;
+    background: 1px solid rgb(204, 223, 199);
+  }
+
+}
+// Theory section block with background image and grid container over it
 .sectiontheory {
   width: 75%;
   margin: 0 auto;

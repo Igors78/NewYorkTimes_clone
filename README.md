@@ -4,7 +4,7 @@
 
 > This project is made as part of Microverse HTML/CSS curriculum
 
-![screenshot](./img/Screenshot.jpg)
+![screenshot](./img/fullsizesource.png)
 
 Sample of static web page with form elements
 
@@ -17,7 +17,7 @@ Sample of static web page with form elements
 
 ## Live Demo
 
-[Live Demo Link](https://warblo001.github.io/MintClone/)
+[Live Demo Link](https://igors78.github.io/NewYorkTimes_clone/)
 
 **See the page via the link above**
 
@@ -37,7 +37,7 @@ Sample of static web page with form elements
 
 - GitHub: [@github](https://github.com/Arinpe)
 - Twitter: [@twitter](https://twitter.com/_detola_)
-- LinkedIn: [LinkedIn]https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
 
 ## Show your support
 
