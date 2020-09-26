@@ -1,12 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 
 main {
-  width: 75.18%;
+  width: 100%;
   margin: 60px auto 0 auto;
-  display: flex;
-  flex-direction: column;
+}
+  
+.heading {
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+
+  img {
+    width: 945px;
+  }
 }
 
 .articlemain {
+  display: flex;
+  align-content: stretch;
 
+  .articlemain__aside {
+    flex: 1 1 25%;
+    background: 1px solid rgb(218, 211, 211);
+  }
+
+  .articlemain__center{
+    flex: 1 1 50%;
+  }
+}
+
+.sectiontheory {
+  width: 75%;
+  margin: 0 auto;
 }
