@@ -1,27 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
   width: 100%;
   font-size: 15px;
   font-family: "Libre Franklin", sans-serif;
   line-height: normal;
-  
 }
+
 //MAIN section goes all way down to the footer
 main {
   width: 100%;
   margin: 60px auto 0 auto;
 }
+
 // Main section heading with image
-.heading {
+.mainheading {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   width: 75%;
+
+  h1 {
+    display: inline-block;
+    color: #121212;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0 17% 25px 17%;
+  }
+
+  figcaption {
+    padding: 10px 20px 45px 0;
+    color: #666;
+
+    span {
+      color: #888;
+      font-size: 12px;
+    }
+  }
 
   img {
     width: 945px;
   }
 }
+
 // Article block with aside section
 .articlemain {
   display: flex;
@@ -30,30 +52,119 @@ main {
 
   .articlemain__center {
     width: 75%;
-    padding: 0 0 0 25%;
-    background: rgb(240, 230, 143);
+    padding: 0 3% 0 25%;
+    color: #333;
+    font-family: "Montserrat", serif;
+    //font-weight: 500;
+    line-height: 1.7;
+
+    .articlemain__center__head {
+      a {
+        color: #333;
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      p {
+        font-weight: 600;
+      }
+
+      .articlenavbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0 30px 0;
+
+        .articlenavbar__left {
+          color: #333;
+          font-size: 13px;
+          display: inline-block;
+          padding: 3px 0 0 0;
+        }
+
+        .articlenavbar__right {
+          a {
+            color: black;
+            display: inline-flex;
+            padding: 2px 2px 2px 2px;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+
+            &:hover {
+              border: 1px solid grey;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .articlemain__center__text {
+    font-weight: 600;
+
+    h3 {
+      display: inline-block;
+      padding: 20px 0 20px 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: black;
+    }
+
+    a {
+      color: #326891;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 
   .articlemain__aside {
     width: 25%;
-    padding: 0 30px 0 30px;
-    background: rgb(54, 201, 14);
+    padding: 50% 6% 0 0;
+
+    .asideheading {
+      padding: 0 0 10px 0;
+      margin: 0 0 13px 0;
+      border-bottom: 1px solid gray;
+      h5 {
+        display: inline-block;
+        color: black;
+        //font-family: serif;
+        //font-size: 20px;
+        font-weight: 600;
+      }
+    }
+
     img {
       width: 75px;
       height: 75px;
       cursor: pointer;
     }
   }
+
   .aside__body_item {
     display: flex;
+    margin: 10px 0 0 0;
 
     .body__item_left {
       flex: 1 1 30%;
     }
 
     .body__item_right {
+      display: inline-block;
+      padding: 10px 0 0 0;
       flex: 1 1 60%;
+
       a {
+        color: #333;
         &:hover {
           text-decoration: underline;
         }
@@ -61,10 +172,12 @@ main {
     }
   }
 }
+
 // Theory section block with background image and grid container over it
 .sectiontheory {
   width: 75%;
   margin: 0 auto;
+
   .sectiontheory__grid {
     border: 1px solid green;
     background-image: url("/img/theory1.png");
@@ -72,6 +185,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
   }
+
   .sectiontheory__grid_item {
     p {
       //visibility: hidden;
@@ -79,15 +193,88 @@ main {
     }
   }
 }
+
 // Section after inserted theory block
 .articlebottom {
   width: 50%;
-  margin: 0 auto;
+  margin: 20px auto 10px auto;
+  padding: 0 3% 0 0;
+  color: #333;
+  font-family: "Montserrat", serif;
+  line-height: 1.7;
+  font-weight: 600;
+  a {
+    color: #326891;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   figure {
+    margin: 50px 0 50px 0;
     width: 100%;
 
+    figcaption {
+      font-family: "Libre Franklin", sans-serif;
+      line-height: normal;
+      padding: 0 20px 0 0;
+      color: #666;
+
+      span {
+        color: #888;
+        font-size: 12px;
+      }
+    }
+
     img {
-width: 600px;
+      width: 600px;
+    }
+  }
+
+  h3 {
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+}
+.articlebottom__footer {
+  margin: 30px 0 30px 0;
+  color: #666;
+  font-size: 12px;
+  a {
+    color: #666;
+  }
+}
+
+.articlebottom__footer__navbar {
+  display: flex;
+  margin: 0 0 50px 0;
+  justify-content: space-between;
+  .articlebottom__footer__navbar_left {
+    button {
+      padding-left: 95px;
+      padding-right: 95px;
+    }
+  }
+  .articlebottom__footer__navbar_right {
+    a {
+      color: black;
+      display: inline-flex;
+      padding: 2px 2px 2px 2px;
+      width: 30px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+
+      &:hover {
+        border: 1px solid grey;
+        border-radius: 50%;
+      }
     }
   }
 }
@@ -97,7 +284,7 @@ width: 600px;
   margin: 0 auto;
   display: flex;
   width: 95%;
-  
+
   img {
     width: 100%;
   }
@@ -105,11 +292,12 @@ width: 600px;
 
 .lowerpart__left {
   flex: 1 1 70%;
-  
+
   .lowerpart__left__content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     .lowerpart__left__content__item {
       flex: 1 1 33%;
       padding: 0 2% 0 0;
@@ -117,6 +305,6 @@ width: 600px;
   }
 }
 
-.lowerpart__right{
+.lowerpart__right {
   flex: 1 1 30%;
 }
