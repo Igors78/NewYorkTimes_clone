@@ -80,6 +80,7 @@ main {
   justify-content: space-between;
   padding: 15px 0 30px 0;
 }
+
 .articlenavbar__left {
   color: #333;
   font-size: 13px;
@@ -129,6 +130,7 @@ main {
 .articlemain__aside {
   width: 25%;
   padding: 50% 6% 0 0;
+
   img {
     width: 75px;
     height: 75px;
@@ -166,6 +168,7 @@ main {
 
   a {
     color: #333;
+
     &:hover {
       text-decoration: underline;
     }
@@ -241,6 +244,7 @@ main {
     color: black;
   }
 }
+
 .articlebottom__footer {
   margin: 30px 0 30px 0;
   color: #666;
@@ -256,12 +260,14 @@ main {
   margin: 0 0 50px 0;
   justify-content: space-between;
 }
+
 .articlebottom__footer__navbar_left {
   button {
     padding-left: 95px;
     padding-right: 95px;
   }
 }
+
 .articlebottom__footer__navbar_right {
   a {
     color: black;
