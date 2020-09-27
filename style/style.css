@@ -157,11 +157,11 @@ main {
           flex: 1 1 60%;
 }
 
-.body__item_right a {
+.body__item_right .linkaside {
   color: #333;
 }
 
-.body__item_right a:hover {
+.body__item_right .linkaside:hover {
   text-decoration: underline;
 }
 
@@ -187,12 +187,12 @@ main {
   font-weight: 600;
 }
 
-.articlebottom a {
+.articlebottom .linkarticle {
   color: #326891;
   text-decoration: underline;
 }
 
-.articlebottom a:hover {
+.articlebottom .linkarticle:hover {
   text-decoration: none;
 }
 
@@ -266,7 +266,7 @@ main {
   text-decoration: none;
 }
 
-.articlebottom__footer__navbar_right a {
+.articlebottom__footer__navbar_right .social {
   color: black;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -283,7 +283,7 @@ main {
   text-decoration: none;
 }
 
-.articlebottom__footer__navbar_right a:hover {
+.articlebottom__footer__navbar_right .social:hover {
   border: 1px solid grey;
   border-radius: 50%;
 }
