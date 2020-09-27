@@ -25,24 +25,6 @@ main {
   }
 }
 
-.articlebottom__footer__navbar_right {
-  a {
-    color: black;
-    display: inline-flex;
-    padding: 2px 2px 2px 2px;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
-    &:hover {
-      border: 1px solid grey;
-      border-radius: 50%;
-    }
-  }
-}
-
 .articlebottom {
   width: 50%;
   margin: 20px auto 10px auto;
@@ -107,6 +89,27 @@ main {
   justify-content: space-between;
 }
 
+.articlemain__center__text {
+  font-weight: 600;
+
+  h3 {
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+
+  a {
+    color: #326891;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 .articlebottom__footer__navbar_left {
   button {
     padding-left: 95px;
@@ -114,6 +117,37 @@ main {
   }
 }
 
+.body__item_right {
+  display: inline-block;
+  padding: 10px 0 0 0;
+  flex: 1 1 60%;
+
+  a {
+    color: #333;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.articlebottom__footer__navbar_right {
+  a {
+    color: black;
+    display: inline-flex;
+    padding: 2px 2px 2px 2px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+      border: 1px solid grey;
+      border-radius: 50%;
+    }
+  }
+}
 // Main section heading with image
 .mainheading {
   margin: 0 auto;
@@ -129,7 +163,7 @@ main {
     padding: 0 17% 25px 17%;
   }
 
-  figcaption {
+  .maincaption {
     padding: 10px 20px 45px 0;
     color: #666;
 
@@ -206,27 +240,6 @@ main {
   }
 }
 
-.articlemain__center__text {
-  font-weight: 600;
-
-  h3 {
-    display: inline-block;
-    padding: 20px 0 20px 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: black;
-  }
-
-  a {
-    color: #326891;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
-
 .articlemain__aside {
   width: 25%;
   padding: 50% 6% 0 0;
@@ -260,21 +273,6 @@ main {
 .body__item_left {
   flex: 1 1 30%;
 }
-
-.body__item_right {
-  display: inline-block;
-  padding: 10px 0 0 0;
-  flex: 1 1 60%;
-
-  a {
-    color: #333;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
 // Theory section block with background image and grid container over it
 .sectiontheory {
   width: 75%;
@@ -295,7 +293,6 @@ main {
     }
   }
 }
-
 // Lowerpart with editors picks and most popular
 .lowerpart__left {
   flex: 1 1 70%;
