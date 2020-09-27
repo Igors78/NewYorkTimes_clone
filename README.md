@@ -1,12 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The NewYork Times Page
+# The NewYork Times Page Clone
 
 > This project is made as part of Microverse HTML/CSS curriculum
 
-![screenshot](./img/fullsizesource.png)
+![screenshot](./img/fullsizesource.)
 
-Sample of static web page with form elements
+## Project requirements
+This project is the third in the HTML/CSS module at Microverse
+Requirements fulfilled:
+1. Create a new HTML document.
+2. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
+3. Set up the top navigation bar.
+4. Fill in and position the additional sections.
+5. Push your solution to GitHub.
+
+
 
 ## Built With
 
@@ -23,7 +32,7 @@ Sample of static web page with form elements
 
 **See the Source Page via the link below**
 
-[Source Page Link](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS)
+[Source Page Link](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ## Authors
 
