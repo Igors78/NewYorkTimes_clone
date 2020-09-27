@@ -91,7 +91,7 @@ main {
   padding: 3px 0 0 0;
 }
 
-.articlenavbar__right a {
+.articlenavbar__right .linksocial {
   color: black;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -108,7 +108,7 @@ main {
   text-decoration: none;
 }
 
-.articlenavbar__right a:hover {
+.articlenavbar__right .linksocial:hover {
   border: 1px solid grey;
   border-radius: 50%;
 }
