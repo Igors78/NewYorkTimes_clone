@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 body {
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Libre Franklin", sans-serif;
   line-height: normal;
 }
@@ -48,6 +48,7 @@ main {
 .articlemain .articlemain__aside img {
   width: 75px;
   height: 75px;
+  cursor: pointer;
 }
 
 .articlemain .aside__body_item {
@@ -66,6 +67,10 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 60%;
           flex: 1 1 60%;
+}
+
+.articlemain .aside__body_item .body__item_right a:hover {
+  text-decoration: underline;
 }
 
 .sectiontheory {
@@ -88,5 +93,55 @@ main {
 .articlebottom {
   width: 50%;
   margin: 0 auto;
+}
+
+.articlebottom figure {
+  width: 100%;
+}
+
+.articlebottom figure img {
+  width: 600px;
+}
+
+.lowerpart {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+}
+
+.lowerpart img {
+  width: 100%;
+}
+
+.lowerpart__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 70%;
+          flex: 1 1 70%;
+}
+
+.lowerpart__left .lowerpart__left__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lowerpart__left .lowerpart__left__content .lowerpart__left__content__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33%;
+          flex: 1 1 33%;
+  padding: 0 2% 0 0;
+}
+
+.lowerpart__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
 }
 /*# sourceMappingURL=style.css.map */

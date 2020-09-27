@@ -2,9 +2,10 @@
 
 body {
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Libre Franklin", sans-serif;
   line-height: normal;
+  
 }
 //MAIN section goes all way down to the footer
 main {
@@ -40,6 +41,7 @@ main {
     img {
       width: 75px;
       height: 75px;
+      cursor: pointer;
     }
   }
   .aside__body_item {
@@ -51,6 +53,11 @@ main {
 
     .body__item_right {
       flex: 1 1 60%;
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
@@ -76,4 +83,40 @@ main {
 .articlebottom {
   width: 50%;
   margin: 0 auto;
+  figure {
+    width: 100%;
+
+    img {
+width: 600px;
+    }
+  }
+}
+
+// Lowerpart with editors picks and most popular
+.lowerpart {
+  margin: 0 auto;
+  display: flex;
+  width: 95%;
+  
+  img {
+    width: 100%;
+  }
+}
+
+.lowerpart__left {
+  flex: 1 1 70%;
+  
+  .lowerpart__left__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .lowerpart__left__content__item {
+      flex: 1 1 33%;
+      padding: 0 2% 0 0;
+    }
+  }
+}
+
+.lowerpart__right{
+  flex: 1 1 30%;
 }
