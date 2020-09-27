@@ -229,7 +229,7 @@ main {
   color: #666;
 }
 
-.articlebottom figure figcaption span {
+.articlebottom figure figcaption .empha {
   color: #888;
   font-size: 12px;
 }
