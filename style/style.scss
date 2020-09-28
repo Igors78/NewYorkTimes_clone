@@ -279,23 +279,49 @@ main {
 }
 // Theory section block with background image and grid container over it
 .sectiontheory {
-  width: 75%;
-  margin: 0 auto;
+  width: 945px;
+  margin: 0 auto 40px auto;
+}
 
-  .sectiontheory__grid {
-    border: 1px solid green;
-    background-image: url("/img/theory1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.sectiontheory__text {
+  h3 {
+    display: inline-block;
+    padding: 40px 0 10px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
   }
 
-  .sectiontheory__grid_item {
-    p {
-      //visibility: hidden;
-      background: transparent;
-    }
+  p {
+    font-size: 14px;
+    color: #666;
   }
+}
+
+.sectiontheory__grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  background-image: url("/img/theory1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sectiontheory__grid_item {
+  padding: 0 7% 0 0;
+  margin: 150px 0 0 0;
+
+  p {
+    font-size: 1rem;
+    background: transparent;
+  }
+}
+
+.section__theory_underline{
+  width: 60px;
+  border-top: 1px solid black;
+  margin: 20px 0 20px 0;
 }
 // Lowerpart with editors picks and most popular
 .lowerpart__left {
