@@ -7,7 +7,6 @@ body {
   font-family: "Libre Franklin", sans-serif;
   line-height: normal;
 }
-
 //MAIN section goes all way down to the footer
 main {
   width: 100%;
@@ -15,7 +14,6 @@ main {
 }
 
 // Section after inserted theory block
-
 
 .articlebottom {
   width: 50%;
@@ -70,7 +68,7 @@ main {
   color: #666;
   font-size: 12px;
 
-  a {
+  .linkbot {
     color: #666;
   }
 }
@@ -131,7 +129,7 @@ main {
     }
   }
 
-  img {
+  .mainimg {
     width: 945px;
   }
 }
@@ -153,7 +151,7 @@ main {
 }
 
 .articlemain__center__head {
-  a {
+  .centerheadlink {
     color: #333;
     text-decoration: underline;
 
@@ -181,7 +179,7 @@ main {
 }
 
 .articlenavbar__right {
-  a {
+  .linksocial {
     color: black;
     display: inline-flex;
     padding: 2px 2px 2px 2px;
@@ -209,7 +207,7 @@ main {
     color: black;
   }
 
-  a {
+  .centerlink {
     color: #326891;
     text-decoration: underline;
 
@@ -308,7 +306,7 @@ main {
   }
 }
 
-.section__theory_underline{
+.section__theory_underline {
   width: 60px;
   border-top: 1px solid black;
   margin: 20px 0 20px 0;
@@ -320,7 +318,7 @@ main {
   display: flex;
   width: 95%;
 
-  img {
+  .lowerpartimg {
     width: 100%;
   }
 }
