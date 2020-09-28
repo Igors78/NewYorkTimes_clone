@@ -14,6 +14,106 @@ main {
   margin: 60px auto 0 auto;
 }
 
+// Section after inserted theory block
+.lowerpart {
+  margin: 0 auto;
+  display: flex;
+  width: 95%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.articlebottom__footer__navbar_right {
+  a {
+    color: black;
+    display: inline-flex;
+    padding: 2px 2px 2px 2px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+      border: 1px solid grey;
+      border-radius: 50%;
+    }
+  }
+}
+
+.articlebottom {
+  width: 50%;
+  margin: 20px auto 10px auto;
+  padding: 0 3% 0 0;
+  color: #333;
+  font-family: "Montserrat", serif;
+  line-height: 1.7;
+  font-weight: 600;
+
+  a {
+    color: #326891;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  figure {
+    margin: 50px 0 50px 0;
+    width: 100%;
+
+    figcaption {
+      font-family: "Libre Franklin", sans-serif;
+      line-height: normal;
+      padding: 0 20px 0 0;
+      color: #666;
+
+      span {
+        color: #888;
+        font-size: 12px;
+      }
+    }
+
+    img {
+      width: 600px;
+    }
+  }
+
+  h3 {
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+}
+
+.articlebottom__footer {
+  margin: 30px 0 30px 0;
+  color: #666;
+  font-size: 12px;
+
+  a {
+    color: #666;
+  }
+}
+
+.articlebottom__footer__navbar {
+  display: flex;
+  margin: 0 0 50px 0;
+  justify-content: space-between;
+}
+
+.articlebottom__footer__navbar_left {
+  button {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+}
+
 // Main section heading with image
 .mainheading {
   margin: 0 auto;
@@ -29,7 +129,7 @@ main {
     padding: 0 17% 25px 17%;
   }
 
-  .maincaption {
+  figcaption {
     padding: 10px 20px 45px 0;
     color: #666;
 
@@ -38,11 +138,12 @@ main {
       font-size: 12px;
     }
   }
+
+  img {
+    width: 945px;
+  }
 }
 
-.mainimg {
-  width: 945px;
-}
 // Article block with aside section
 .articlemain {
   display: flex;
@@ -88,7 +189,7 @@ main {
 }
 
 .articlenavbar__right {
-  .linksocial {
+  a {
     color: black;
     display: inline-flex;
     padding: 2px 2px 2px 2px;
@@ -116,7 +217,7 @@ main {
     color: black;
   }
 
-  .centerlink {
+  a {
     color: #326891;
     text-decoration: underline;
 
@@ -165,7 +266,7 @@ main {
   padding: 10px 0 0 0;
   flex: 1 1 60%;
 
-  .linkaside {
+  a {
     color: #333;
 
     &:hover {
@@ -174,109 +275,6 @@ main {
   }
 }
 
-// Section after inserted theory block
-.lowerpart {
-  margin: 0 auto;
-  display: flex;
-  width: 95%;
-
-  img {
-    width: 100%;
-  }
-}
-
-.articlebottom {
-  width: 50%;
-  margin: 20px auto 10px auto;
-  padding: 0 3% 0 0;
-  color: #333;
-  font-family: "Montserrat", serif;
-  line-height: 1.7;
-  font-weight: 600;
-
-  .linkarticle {
-    color: #326891;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  figure {
-    margin: 50px 0 50px 0;
-    width: 100%;
-
-    figcaption {
-      font-family: "Libre Franklin", sans-serif;
-      line-height: normal;
-      padding: 0 20px 0 0;
-      color: #666;
-
-      .empha {
-        color: #888;
-        font-size: 12px;
-      }
-    }
-
-    img {
-      width: 600px;
-    }
-  }
-
-  h3 {
-    display: inline-block;
-    padding: 20px 0 20px 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: black;
-  }
-}
-
-.articlebottom__footer {
-  margin: 30px 0 30px 0;
-  color: #666;
-  font-size: 12px;
-
-  .linkbot {
-    color: #666;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-.articlebottom__footer__navbar {
-  display: flex;
-  margin: 0 0 50px 0;
-  justify-content: space-between;
-}
-
-.articlebottom__footer__navbar_right {
-  .social {
-    color: black;
-    display: inline-flex;
-    padding: 2px 2px 2px 2px;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
-    &:hover {
-      border: 1px solid grey;
-      border-radius: 50%;
-    }
-  }
-}
-
-.articlebottom__footer__navbar_left {
-  button {
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-}
 // Theory section block with background image and grid container over it
 .sectiontheory {
   width: 945px;
@@ -318,11 +316,14 @@ main {
   }
 }
 
+<<<<<<< HEAD
 .section__theory_underline{
   width: 60px;
   border-top: 1px solid black;
   margin: 20px 0 20px 0;
 }
+=======
+>>>>>>> 5dd56f20c1688556cb9c68fd42ee3b9646e2bc46
 // Lowerpart with editors picks and most popular
 .lowerpart__left {
   flex: 1 1 70%;
