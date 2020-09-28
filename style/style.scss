@@ -7,6 +7,28 @@ body {
   font-family: "Libre Franklin", sans-serif;
   line-height: normal;
 }
+
+/*HEADER*/
+.header__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+button {
+  background: #567b95;
+  color: #fff;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 11px;
+}
+
 //MAIN section goes all way down to the footer
 main {
   width: 100%;
