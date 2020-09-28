@@ -48,6 +48,7 @@ header {
   background: #567b95;
   color: #fff;
   padding: 11px 12px 8px;
+  margin-left: 5px;
   text-transform: uppercase;
   border-radius: 3px;
   font-weight: 700;
@@ -371,9 +372,15 @@ main {
   margin: 0 auto;
   display: flex;
   width: 95%;
+  border-bottom: 3px solid gray;
+  padding-bottom: 25px;
 
   .lowerpartimg {
     width: 100%;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -430,6 +437,12 @@ main {
   flex: 1 1 30%;
 }
 
+.mostpopular {
+  display: block;
+  border-top: 1px solid rgba(102, 102, 102, 0.315);
+  padding: 20px 0 20px 0;
+}
+
 .lowerpart__right__heading,
 .lowerpart__left_heading {
   color: #333;
@@ -437,4 +450,10 @@ main {
   font-size: 16px;
   font-weight: 800;
   border-top: 1px solid black;
+}
+
+.lowerscoreline {
+  width: 95%;
+  margin: 1px auto 0 auto;
+  border-top: 1px solid gray;
 }
