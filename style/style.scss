@@ -345,11 +345,10 @@ main {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 50% 50%;
-  background-image: url(/img/theory1.png);
+  background-image: url('../img/theory1.png') ;
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
-}
+  }
 
 .sectiontheory__grid_item {
   padding: 0 7% 0 0;
