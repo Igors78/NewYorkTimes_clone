@@ -377,7 +377,41 @@ main {
   }
 }
 
+.headinglinkbot {
+  color: #121212;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.solelink {
+  display: inline-block;
+  padding: 5px 5px 5px 0;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+
+  &:hover {
+    color: #666;
+  }
+}
+
+.date {
+  font-size: 10px;
+  color: #666;
+}
+
+.botcaption {
+  font-size: 10px;
+  text-align: right;
+  display: block;
+  padding: 5px 0 0 0;
+  color: #666;
+}
+
 .lowerpart__left {
+  margin-right: 50px;
   flex: 1 1 70%;
 
   .lowerpart__left__content {
@@ -387,11 +421,20 @@ main {
 
     .lowerpart__left__content__item {
       flex: 1 1 33%;
-      padding: 0 2% 0 0;
+      padding: 0 0 20px 20px;
     }
   }
 }
 
 .lowerpart__right {
   flex: 1 1 30%;
+}
+
+.lowerpart__right__heading,
+.lowerpart__left_heading {
+  color: #333;
+  padding: 17px 0 20px 0;
+  font-size: 16px;
+  font-weight: 800;
+  border-top: 1px solid black;
 }

@@ -396,7 +396,41 @@ main {
   width: 100%;
 }
 
+.headinglinkbot {
+  color: #121212;
+}
+
+.headinglinkbot:hover {
+  text-decoration: underline;
+}
+
+.solelink {
+  display: inline-block;
+  padding: 5px 5px 5px 0;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.solelink:hover {
+  color: #666;
+}
+
+.date {
+  font-size: 10px;
+  color: #666;
+}
+
+.botcaption {
+  font-size: 10px;
+  text-align: right;
+  display: block;
+  padding: 5px 0 0 0;
+  color: #666;
+}
+
 .lowerpart__left {
+  margin-right: 50px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 70%;
           flex: 1 1 70%;
@@ -417,12 +451,21 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 33%;
           flex: 1 1 33%;
-  padding: 0 2% 0 0;
+  padding: 0 0 20px 20px;
 }
 
 .lowerpart__right {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30%;
           flex: 1 1 30%;
+}
+
+.lowerpart__right__heading,
+.lowerpart__left_heading {
+  color: #333;
+  padding: 17px 0 20px 0;
+  font-size: 16px;
+  font-weight: 800;
+  border-top: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
