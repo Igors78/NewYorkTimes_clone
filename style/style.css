@@ -394,4 +394,24 @@ main {
       -ms-flex: 1 1 30%;
           flex: 1 1 30%;
 }
+
+.Img {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 5%;
+}
+
+.Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font: helvetica;
+}
+
+.line {
+  border: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */
