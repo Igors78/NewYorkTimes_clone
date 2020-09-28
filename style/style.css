@@ -122,12 +122,12 @@ main {
   padding: 0 17% 25px 17%;
 }
 
-.mainheading figcaption {
+.mainheading .maincaption {
   padding: 10px 20px 45px 0;
   color: #666;
 }
 
-.mainheading figcaption span {
+.mainheading .maincaption span {
   color: #888;
   font-size: 12px;
 }
