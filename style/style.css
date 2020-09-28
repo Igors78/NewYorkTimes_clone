@@ -363,7 +363,7 @@ main {
       grid-template-columns: 25% 25% 25% 25%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-  background-image: url("/img/theory1.png");
+  background-image: url(/img/theory1.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -484,7 +484,7 @@ main {
 }
 
 .line {
-  border: #FFFFFF;
+  border: #FFF;
 }
 
 .mostpopular {
