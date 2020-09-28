@@ -12,40 +12,6 @@ main {
   margin: 60px auto 0 auto;
 }
 
-.lowerpart {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 95%;
-}
-
-.lowerpart img {
-  width: 100%;
-}
-
-.articlebottom__footer__navbar_right a {
-  color: black;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 2px 2px 2px 2px;
-  width: 30px;
-  height: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-}
-
-.articlebottom__footer__navbar_right a:hover {
-  border: 1px solid grey;
-  border-radius: 50%;
-}
-
 .articlebottom {
   width: 50%;
   margin: 20px auto 10px auto;
@@ -117,6 +83,28 @@ main {
 .articlebottom__footer__navbar_left button {
   padding-left: 95px;
   padding-right: 95px;
+}
+
+.articlebottom__footer__navbar_right .social {
+  color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 2px 2px 2px 2px;
+  width: 30px;
+  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.articlebottom__footer__navbar_right .social:hover {
+  border: 1px solid grey;
+  border-radius: 50%;
 }
 
 .mainheading {
@@ -246,7 +234,7 @@ main {
   padding: 50% 6% 0 0;
 }
 
-.articlemain__aside img {
+.articlemain__aside .sideimg {
   width: 75px;
   height: 75px;
   cursor: pointer;
@@ -285,11 +273,11 @@ main {
           flex: 1 1 60%;
 }
 
-.body__item_right a {
+.body__item_right .linkaside {
   color: #333;
 }
 
-.body__item_right a:hover {
+.body__item_right .linkaside:hover {
   text-decoration: underline;
 }
 
@@ -338,6 +326,18 @@ main {
   width: 60px;
   border-top: 1px solid black;
   margin: 20px 0 20px 0;
+}
+
+.lowerpart {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+}
+
+.lowerpart img {
+  width: 100%;
 }
 
 .lowerpart__left {

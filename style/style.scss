@@ -15,33 +15,7 @@ main {
 }
 
 // Section after inserted theory block
-.lowerpart {
-  margin: 0 auto;
-  display: flex;
-  width: 95%;
 
-  img {
-    width: 100%;
-  }
-}
-
-.articlebottom__footer__navbar_right {
-  a {
-    color: black;
-    display: inline-flex;
-    padding: 2px 2px 2px 2px;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
-    &:hover {
-      border: 1px solid grey;
-      border-radius: 50%;
-    }
-  }
-}
 
 .articlebottom {
   width: 50%;
@@ -111,6 +85,24 @@ main {
   button {
     padding-left: 95px;
     padding-right: 95px;
+  }
+}
+
+.articlebottom__footer__navbar_right {
+  .social {
+    color: black;
+    display: inline-flex;
+    padding: 2px 2px 2px 2px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+      border: 1px solid grey;
+      border-radius: 50%;
+    }
   }
 }
 
@@ -231,7 +223,7 @@ main {
   width: 25%;
   padding: 50% 6% 0 0;
 
-  img {
+  .sideimg {
     width: 75px;
     height: 75px;
     cursor: pointer;
@@ -266,7 +258,7 @@ main {
   padding: 10px 0 0 0;
   flex: 1 1 60%;
 
-  a {
+  .linkaside {
     color: #333;
 
     &:hover {
@@ -322,6 +314,17 @@ main {
   margin: 20px 0 20px 0;
 }
 // Lowerpart with editors picks and most popular
+
+.lowerpart {
+  margin: 0 auto;
+  display: flex;
+  width: 95%;
+
+  img {
+    width: 100%;
+  }
+}
+
 .lowerpart__left {
   flex: 1 1 70%;
 
