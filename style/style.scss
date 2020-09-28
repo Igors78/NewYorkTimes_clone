@@ -8,6 +8,27 @@ body {
   line-height: normal;
 }
 
+/*HEADER*/
+.header__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+button {
+  background: #567b95;
+  color: #fff;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 11px;
+}
+
 //MAIN section goes all way down to the footer
 main {
   width: 100%;
@@ -15,33 +36,6 @@ main {
 }
 
 // Section after inserted theory block
-.lowerpart {
-  margin: 0 auto;
-  display: flex;
-  width: 95%;
-
-  img {
-    width: 100%;
-  }
-}
-
-.articlebottom__footer__navbar_right {
-  a {
-    color: black;
-    display: inline-flex;
-    padding: 2px 2px 2px 2px;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
-    &:hover {
-      border: 1px solid grey;
-      border-radius: 50%;
-    }
-  }
-}
 
 .articlebottom {
   width: 50%;
@@ -96,7 +90,7 @@ main {
   color: #666;
   font-size: 12px;
 
-  a {
+  .linkbot {
     color: #666;
   }
 }
@@ -111,6 +105,24 @@ main {
   button {
     padding-left: 95px;
     padding-right: 95px;
+  }
+}
+
+.articlebottom__footer__navbar_right {
+  .social {
+    color: black;
+    display: inline-flex;
+    padding: 2px 2px 2px 2px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+      border: 1px solid grey;
+      border-radius: 50%;
+    }
   }
 }
 
@@ -129,7 +141,7 @@ main {
     padding: 0 17% 25px 17%;
   }
 
-  figcaption {
+  .maincaption {
     padding: 10px 20px 45px 0;
     color: #666;
 
@@ -139,7 +151,7 @@ main {
     }
   }
 
-  img {
+  .mainimg {
     width: 945px;
   }
 }
@@ -161,7 +173,7 @@ main {
 }
 
 .articlemain__center__head {
-  a {
+  .centerheadlink {
     color: #333;
     text-decoration: underline;
 
@@ -189,7 +201,7 @@ main {
 }
 
 .articlenavbar__right {
-  a {
+  .linksocial {
     color: black;
     display: inline-flex;
     padding: 2px 2px 2px 2px;
@@ -217,7 +229,7 @@ main {
     color: black;
   }
 
-  a {
+  .centerlink {
     color: #326891;
     text-decoration: underline;
 
@@ -231,7 +243,7 @@ main {
   width: 25%;
   padding: 50% 6% 0 0;
 
-  img {
+  .sideimg {
     width: 75px;
     height: 75px;
     cursor: pointer;
@@ -266,7 +278,7 @@ main {
   padding: 10px 0 0 0;
   flex: 1 1 60%;
 
-  a {
+  .linkaside {
     color: #333;
 
     &:hover {
@@ -316,12 +328,23 @@ main {
   }
 }
 
-.section__theory_underline{
+.section__theory_underline {
   width: 60px;
   border-top: 1px solid black;
   margin: 20px 0 20px 0;
 }
 // Lowerpart with editors picks and most popular
+
+.lowerpart {
+  margin: 0 auto;
+  display: flex;
+  width: 95%;
+
+  .lowerpartimg {
+    width: 100%;
+  }
+}
+
 .lowerpart__left {
   flex: 1 1 70%;
 

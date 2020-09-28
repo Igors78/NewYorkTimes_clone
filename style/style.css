@@ -7,43 +7,34 @@ body {
   line-height: normal;
 }
 
-main {
+/*HEADER*/
+.header__navbar {
   width: 100%;
-  margin: 60px auto 0 auto;
-}
-
-.lowerpart {
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 95%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
 }
 
-.lowerpart img {
+button {
+  background: #567b95;
+  color: #fff;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+main {
   width: 100%;
-}
-
-.articlebottom__footer__navbar_right a {
-  color: black;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 2px 2px 2px 2px;
-  width: 30px;
-  height: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-}
-
-.articlebottom__footer__navbar_right a:hover {
-  border: 1px solid grey;
-  border-radius: 50%;
+  margin: 60px auto 0 auto;
 }
 
 .articlebottom {
@@ -100,7 +91,7 @@ main {
   font-size: 12px;
 }
 
-.articlebottom__footer a {
+.articlebottom__footer .linkbot {
   color: #666;
 }
 
@@ -119,6 +110,28 @@ main {
   padding-right: 95px;
 }
 
+.articlebottom__footer__navbar_right .social {
+  color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 2px 2px 2px 2px;
+  width: 30px;
+  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.articlebottom__footer__navbar_right .social:hover {
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
 .mainheading {
   margin: 0 auto;
   text-align: left;
@@ -134,17 +147,17 @@ main {
   padding: 0 17% 25px 17%;
 }
 
-.mainheading figcaption {
+.mainheading .maincaption {
   padding: 10px 20px 45px 0;
   color: #666;
 }
 
-.mainheading figcaption span {
+.mainheading .maincaption span {
   color: #888;
   font-size: 12px;
 }
 
-.mainheading img {
+.mainheading .mainimg {
   width: 945px;
 }
 
@@ -168,12 +181,12 @@ main {
   line-height: 1.7;
 }
 
-.articlemain__center__head a {
+.articlemain__center__head .centerheadlink {
   color: #333;
   text-decoration: underline;
 }
 
-.articlemain__center__head a:hover {
+.articlemain__center__head .centerheadlink:hover {
   text-decoration: none;
 }
 
@@ -198,7 +211,7 @@ main {
   padding: 3px 0 0 0;
 }
 
-.articlenavbar__right a {
+.articlenavbar__right .linksocial {
   color: black;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -215,7 +228,7 @@ main {
   text-decoration: none;
 }
 
-.articlenavbar__right a:hover {
+.articlenavbar__right .linksocial:hover {
   border: 1px solid grey;
   border-radius: 50%;
 }
@@ -232,12 +245,12 @@ main {
   color: black;
 }
 
-.articlemain__center__text a {
+.articlemain__center__text .centerlink {
   color: #326891;
   text-decoration: underline;
 }
 
-.articlemain__center__text a:hover {
+.articlemain__center__text .centerlink:hover {
   text-decoration: none;
 }
 
@@ -246,7 +259,7 @@ main {
   padding: 50% 6% 0 0;
 }
 
-.articlemain__aside img {
+.articlemain__aside .sideimg {
   width: 75px;
   height: 75px;
   cursor: pointer;
@@ -285,11 +298,11 @@ main {
           flex: 1 1 60%;
 }
 
-.body__item_right a {
+.body__item_right .linkaside {
   color: #333;
 }
 
-.body__item_right a:hover {
+.body__item_right .linkaside:hover {
   text-decoration: underline;
 }
 
@@ -338,6 +351,18 @@ main {
   width: 60px;
   border-top: 1px solid black;
   margin: 20px 0 20px 0;
+}
+
+.lowerpart {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+}
+
+.lowerpart .lowerpartimg {
+  width: 100%;
 }
 
 .lowerpart__left {
