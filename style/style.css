@@ -488,13 +488,10 @@ main {
   border-top: 1px solid gray;
 }
 
-<<<<<<< HEAD
-.Img {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin-top: 5%;
-=======
+footer {
+  width: 95%;
+}
+
 .Top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -502,7 +499,6 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
->>>>>>> 7037e39dbd8f294d5dad400bf02173c359d3aeb7
 }
 
 .Footer {
@@ -511,18 +507,7 @@ main {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-<<<<<<< HEAD
-  font: helvetica;
-}
-
-.line {
-  border: #fff;
-=======
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
 }
 
 .line {
@@ -537,6 +522,13 @@ main {
 
 .Aside {
   border-left: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .Aside ul {
@@ -544,6 +536,7 @@ main {
 }
 
 .bottom ul {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,6 +545,9 @@ main {
           justify-content: space-between;
   font-size: smaller;
   border-top: 1px solid grey;
->>>>>>> 7037e39dbd8f294d5dad400bf02173c359d3aeb7
+}
+
+.aside3 {
+  border-top: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */

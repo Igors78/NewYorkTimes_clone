@@ -458,6 +458,10 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
+footer {
+  width: 95%;
+}
+
 .Top {
   display: flex;
   justify-content: space-between;
@@ -467,7 +471,7 @@ main {
   display: flex;
   justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  flex-flow: row;
+  
 }
 
 .line {
@@ -482,6 +486,8 @@ main {
 
 .Aside {
   border-left: 1px solid grey;
+  display: flex;
+  flex-direction: column;
 }
 
 .Aside ul {
@@ -489,8 +495,13 @@ main {
 }
 
 .bottom ul {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: smaller;
-  border-top:1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.aside3 {
+  border-top: 1px solid black;
 }
