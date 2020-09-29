@@ -366,6 +366,7 @@ main {
   background-image: url("../img/theory1.png");
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sectiontheory__grid_item {
@@ -466,27 +467,6 @@ main {
           flex: 1 1 30%;
 }
 
-.Img {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin-top: 5%;
-  margin-left: 3%;
-}
-
-.Footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font: helvetica;
-}
-
-.line {
-  border: #FFF;
-}
-
 .mostpopular {
   display: block;
   border-top: 1px solid rgba(102, 102, 102, 0.315);
@@ -506,5 +486,25 @@ main {
   width: 95%;
   margin: 1px auto 0 auto;
   border-top: 1px solid gray;
+}
+
+.Img {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 5%;
+}
+
+.Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font: helvetica;
+}
+
+.line {
+  border: #fff;
 }
 /*# sourceMappingURL=style.css.map */
