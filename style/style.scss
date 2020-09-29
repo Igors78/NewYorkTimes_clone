@@ -458,17 +458,39 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
-.Img {
-  align-items: flex-start;
-  margin-top: 5%;
+.Top {
+  display: flex;
+  justify-content: space-between;
 }
 
 .Footer {
   display: flex;
   justify-content: space-around;
-  font: helvetica;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  flex-flow: row;
 }
 
 .line {
-  border: #fff;
+  border-top: #fff;
+  border-bottom: #fff;
+}
+
+.Go {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.Aside {
+  border-left: 1px solid grey;
+}
+
+.Aside ul {
+  padding-left: 10px;
+}
+
+.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  border-top:1px solid grey;
 }
