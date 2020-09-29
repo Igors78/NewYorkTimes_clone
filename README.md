@@ -7,15 +7,24 @@
 ![screenshot](./img/fullsizesource.)
 
 ## Project requirements
+
 This project is the third in the HTML/CSS module at Microverse
+
 ## Requirements fulfilled:
+
 1. Create a new HTML document.
 2. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
 3. Set up the top navigation bar.
 4. Fill in and position the additional sections.
-5. Push your solution to GitHub.
-
-
+5. Keep your code clean.
+6. Remember to use semantic HTML.
+7. Make sure you DON’T make common mistakes in your CSS styles.
+8. Please use <aside> tag for Editor's picks section on the rightmost side.
+9. Elements aligned with a combination of all three techniques (float, flex and grid)
+10. Set up a code linter.
+11. Follow the Github Flow guidelines.
+    Do not work directly in the master branch. Create a feature-branch branch (give it a descriptive name) for the feature you implement (we assume that this entire project is one feature for learning purposes.) and open a Pull Request from it. When your feature is ready and Pull request approved, you can merge it to the master branch.
+12. Commit changes often.
 
 ## Built With
 
