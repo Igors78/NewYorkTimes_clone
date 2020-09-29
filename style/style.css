@@ -501,6 +501,10 @@ footer {
           justify-content: space-between;
 }
 
+.Img {
+  margin-left: 50px;
+}
+
 .Footer {
   display: -webkit-box;
   display: -ms-flexbox;
