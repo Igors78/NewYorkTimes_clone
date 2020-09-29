@@ -23,7 +23,7 @@ This project is the third in the HTML/CSS module at Microverse
 9. Elements aligned with a combination of all three techniques (float, flex and grid)
 10. Set up a code linter.
 11. Follow the Github Flow guidelines.
-Do not work directly in the master branch. Create a feature-branch branch (give it a descriptive name) for the feature you implement (we assume that this entire project is one feature for learning purposes.) and open a Pull Request from it. When your feature is ready and Pull request approved, you can merge it to the master branch.
+    Do not work directly in the master branch. Create a feature-branch branch (give it a descriptive name) for the feature you implement (we assume that this entire project is one feature for learning purposes.) and open a Pull Request from it. When your feature is ready and Pull request approved, you can merge it to the master branch.
 12. Commit changes often.
 
 ## Built With
