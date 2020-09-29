@@ -471,6 +471,7 @@ main {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-top: 5%;
+  margin-left: 3%;
 }
 
 .Footer {
