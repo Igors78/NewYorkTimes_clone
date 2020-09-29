@@ -487,3 +487,10 @@ main {
 .Aside ul {
   padding-left: 10px;
 }
+
+.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  border-top:1px solid grey;
+}
