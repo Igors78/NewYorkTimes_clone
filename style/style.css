@@ -488,11 +488,11 @@ main {
   border-top: 1px solid gray;
 }
 
-.Img {
+.Top {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-top: 5%;
+  margin-top: none;
   margin-left: 4%;
 }
 
@@ -503,13 +503,28 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
 }
 
 .line {
-  border: #fff;
+  border-top: #FFFFFF;
+  border-bottom: #FFFFFF;
 }
 
 .Go {
-  padding-left: 50px;
+  padding-left: 180vh;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.Aside {
+  border-left: 1px solid grey;
+}
+
+.Aside ul {
+  padding-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

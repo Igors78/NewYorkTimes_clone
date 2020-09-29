@@ -458,9 +458,9 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
-.Img {
+.Top {
   align-items: flex-start;
-  margin-top: 5%;
+  margin-top: none;
   margin-left: 4%;
 }
 
@@ -468,12 +468,24 @@ main {
   display: flex;
   justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  flex-flow: row;
 }
 
 .line {
-  border: #fff;
+  border-top: #FFFFFF;
+  border-bottom:#FFFFFF;
 }
 
 .Go {
-  padding-left: 50px ;
+  padding-left: 180vh;
+  font-size: 11px ;
+  line-height: 11px
+}
+
+.Aside {
+  border-left:1px solid grey ;
+}
+
+.Aside ul {
+  padding-left: 10px;
 }
