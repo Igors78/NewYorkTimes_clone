@@ -461,14 +461,19 @@ main {
 .Img {
   align-items: flex-start;
   margin-top: 5%;
+  margin-left: 4%;
 }
 
 .Footer {
   display: flex;
   justify-content: space-around;
-  font: helvetica;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .line {
   border: #fff;
+}
+
+.Go {
+  padding-left: 50px ;
 }

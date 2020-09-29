@@ -493,6 +493,7 @@ main {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-top: 5%;
+  margin-left: 4%;
 }
 
 .Footer {
@@ -501,10 +502,14 @@ main {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font: helvetica;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .line {
   border: #fff;
+}
+
+.Go {
+  padding-left: 50px;
 }
 /*# sourceMappingURL=style.css.map */
