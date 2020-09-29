@@ -8,7 +8,7 @@
 
 ## Project requirements
 This project is the third in the HTML/CSS module at Microverse
-Requirements fulfilled:
+## Requirements fulfilled:
 1. Create a new HTML document.
 2. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
 3. Set up the top navigation bar.
