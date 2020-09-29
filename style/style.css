@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
   width: 100%;
   font-size: 15px;
@@ -20,8 +21,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   font-size: 14px;
   padding: 0 20px 10px 0;
   border-bottom: 1px solid rgba(219, 211, 211, 0.925);
@@ -126,8 +127,8 @@ main {
   display: flex;
   margin: 0 0 50px 0;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .articlebottom__footer__navbar_left .bottombutton {
@@ -151,11 +152,11 @@ main {
   width: 30px;
   height: 30px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -199,10 +200,10 @@ main {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-line-pack: stretch;
-      align-content: stretch;
+  align-content: stretch;
 }
 
 .articlemain__center {
@@ -231,8 +232,8 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 15px 0 30px 0;
 }
 
@@ -252,11 +253,11 @@ main {
   width: 30px;
   height: 30px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -318,16 +319,16 @@ main {
 
 .body__item_left {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
+  -ms-flex: 1 1 30%;
+  flex: 1 1 30%;
 }
 
 .body__item_right {
   display: inline-block;
   padding: 10px 0 0 0;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 60%;
-          flex: 1 1 60%;
+  -ms-flex: 1 1 60%;
+  flex: 1 1 60%;
 }
 
 .body__item_right .linkaside {
@@ -360,9 +361,9 @@ main {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 25% 25% 25%;
-      grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
   -ms-grid-rows: 50% 50%;
-      grid-template-rows: 50% 50%;
+  grid-template-rows: 50% 50%;
   background-image: url("../img/theory1.png");
   background-size: contain;
   background-position: center;
@@ -439,8 +440,8 @@ main {
 .lowerpart__left {
   margin-right: 50px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 70%;
-          flex: 1 1 70%;
+  -ms-flex: 1 1 70%;
+  flex: 1 1 70%;
 }
 
 .lowerpart__left .lowerpart__left__content {
@@ -448,23 +449,23 @@ main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .lowerpart__left .lowerpart__left__content .lowerpart__left__content__item {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 33%;
-          flex: 1 1 33%;
+  -ms-flex: 1 1 33%;
+  flex: 1 1 33%;
   padding: 0 0 20px 20px;
 }
 
 .lowerpart__right {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
+  -ms-flex: 1 1 30%;
+  flex: 1 1 30%;
 }
 
 .mostpopular {
@@ -493,8 +494,8 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .Footer {
@@ -502,17 +503,17 @@ main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
 }
 
 .line {
-  border-top: #FFFFFF;
-  border-bottom: #FFFFFF;
+  border-top: #fff;
+  border-bottom: #fff;
 }
 
 .Go {
@@ -527,4 +528,3 @@ main {
 .Aside ul {
   padding-left: 10px;
 }
-/*# sourceMappingURL=style.css.map */

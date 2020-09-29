@@ -459,9 +459,6 @@ main {
 }
 //FOOTER PART
 .Top {
-  // align-items: flex-start;
-  // margin-top: none;
-  // margin-left: 4%;
   display: flex;
   justify-content: space-between;
 }
@@ -474,19 +471,17 @@ main {
 }
 
 .line {
-  border-top: #FFFFFF;
-  border-bottom:#FFFFFF;
+  border-top: #fff;
+  border-bottom: #fff;
 }
 
 .Go {
-  // align-self: baseline;
-   font-size: 11px ;
-  //  line-height: 11px
+  font-size: 11px;
   margin-top: 10px;
 }
 
 .Aside {
-  border-left:1px solid grey ;
+  border-left: 1px solid grey;
 }
 
 .Aside ul {
