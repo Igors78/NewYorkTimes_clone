@@ -489,11 +489,12 @@ main {
 }
 
 .Top {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin-top: none;
-  margin-left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Footer {
@@ -515,9 +516,8 @@ main {
 }
 
 .Go {
-  padding-left: 180vh;
   font-size: 11px;
-  line-height: 11px;
+  margin-top: 10px;
 }
 
 .Aside {
