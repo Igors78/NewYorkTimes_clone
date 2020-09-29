@@ -366,6 +366,7 @@ main {
   background-image: url("../img/theory1.png");
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sectiontheory__grid_item {
