@@ -490,6 +490,14 @@ main {
   border-top: 1px solid gray;
 }
 
+.finallink {
+  color: #161616;
+}
+
+.finallink:hover {
+  text-decoration: underline;
+}
+
 .bottom {
   margin-left: 40px;
   margin-top: 10px;
@@ -501,7 +509,7 @@ main {
           justify-content: center;
   padding: 25px 0 25px 0;
   text-align: center;
-  border-top: 1px solid #928a8a;
+  border-top: 1px solid #ebe1e1;
 }
 
 .bottom .bottomli {
@@ -511,13 +519,12 @@ main {
   font-size: 11px;
 }
 
-footer {
-  width: 95%;
+.bottom .bottomli:hover {
+  text-decoration: underline;
 }
 
-footer li:hover {
-  text-decoration: underline;
-  cursor: pointer;
+footer {
+  width: 95%;
 }
 
 .Top {
@@ -532,14 +539,6 @@ footer li:hover {
   margin: 5px 0 10px 26px;
 }
 
-.Img {
-  margin-left: 0;
-}
-
-.Img:hover {
-  cursor: pointer;
-}
-
 .Footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -549,11 +548,6 @@ footer li:hover {
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   line-height: 1.5em;
   font-weight: lighter;
-}
-
-.line {
-  border-top: #fff;
-  border-bottom: #fff;
 }
 
 .Go {

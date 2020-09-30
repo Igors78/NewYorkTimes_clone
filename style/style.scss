@@ -298,7 +298,6 @@ main {
   display: inline-block;
   color: black;
   font-weight: 600;
-
 }
 
 .item__title {
@@ -322,7 +321,6 @@ main {
   width: 75px;
   height: 75px;
 }
-
 
 .asidelink {
   color: rgb(39, 35, 35);
@@ -466,6 +464,15 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
+
+.finallink {
+  color: rgb(22, 22, 22);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .bottom {
   margin-left: 40px;
   margin-top: 10px;
@@ -473,25 +480,22 @@ main {
   justify-content: center;
   padding: 25px 0 25px 0;
   text-align: center;
-  border-top: 1px solid rgb(146, 138, 138);
+  border-top: 1px solid rgb(235, 225, 225);
 
   .bottomli {
     display: inline-block;
     padding-left: 13px;
     color: #666;
     font-size: 11px;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
 footer {
   width: 95%;
-
-  li {
-    &:hover {
-      text-decoration: underline;
-      cursor: pointer;
-    }
-  }
 }
 
 .Top {
@@ -502,25 +506,12 @@ footer {
   margin: 5px 0 10px 26px;
 }
 
-.Img {
-  margin-left: 0;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
 .Footer {
   display: flex;
   justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   line-height: 1.5em;
   font-weight: lighter;
-}
-
-.line {
-  border-top: #fff;
-  border-bottom: #fff;
 }
 
 .Go {
