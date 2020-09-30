@@ -42,6 +42,10 @@ header {
   padding: 2px 11px 0 0;
 }
 
+.header__navbar_middle:hover {
+  cursor: pointer;
+}
+
 .header__navbar_right {
   padding: 7px 0 0 0;
 }
@@ -502,7 +506,7 @@ main {
   border-top: 1px solid #928a8a;
 }
 
-.bottom li {
+.bottom .bottomli {
   display: inline-block;
   padding-left: 13px;
   color: #666;
