@@ -4,7 +4,7 @@
 
 > This project is made as part of Microverse HTML/CSS curriculum
 
-![screenshot](./img/fullsizesource.)
+![screenshot](./img/fullsizescreenshot.png)
 
 ## Project requirements
 
