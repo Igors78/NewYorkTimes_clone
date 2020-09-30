@@ -8,7 +8,7 @@
 
 ## Project requirements
 
-This project is the third in the HTML/CSS module at Microverse
+In this project is a New York Times Clone. In building this project, we made usr of HTML and Css
 
 ## Requirements fulfilled:
 
@@ -53,9 +53,9 @@ This project is the third in the HTML/CSS module at Microverse
 
 👤 **Adesuyi Adetola**
 
-- GitHub: [@github](https://github.com/Arinpe)
-- Twitter: [@twitter](https://twitter.com/_detola_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+- GitHub: [@Arinpe](https://github.com/Arinpe)
+- Twitter: [@_detola_](https://twitter.com/_detola_)
+- LinkedIn: [Adesuyi Adetola](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
 
 ## Show your support
 
