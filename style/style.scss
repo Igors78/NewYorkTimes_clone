@@ -458,8 +458,26 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
+.bottom {
+  margin-left: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0 25px 0;
+  text-align: center;
+  border-top: 1px solid rgb(146, 138, 138);
+
+  li {
+    display: inline-block;
+    padding-left: 13px;
+    color: #666;
+    font-size: 11px;
+  }
+}
+
 footer {
   width: 95%;
+
   li {
     &:hover {
       text-decoration: underline;
@@ -531,21 +549,4 @@ footer {
   margin: 5px 0 10px 10px;
   border-top: 1px solid rgb(155, 149, 149);
   padding-top: 5px;
-}
-
-.bottom {
-  margin-left: 40px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  padding: 25px 0 25px 0;
-  text-align: center;
-  border-top: 1px solid rgb(146, 138, 138);
-
-  li {
-    display: inline-block;
-    padding-left: 13px;
-    color: #666;
-    font-size: 11px;
-  }
 }
