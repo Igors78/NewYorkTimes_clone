@@ -6,11 +6,11 @@
 
 ![screenshot](./img/fullsizescreenshot.png)
 
-## Project requirements
+## About
 
-In this project is a New York Times Clone. In building this project, we made usr of HTML and Css
+This project is the third in Microverse HTML/CSS curriculum. We made a clone of New York Times article page, made it look as possible closer to an original, while practicing CSS3 positioning techniques like flex and grid. 
 
-## Requirements fulfilled:
+## Project Requirements fulfilled:
 
 1. Create a new HTML document.
 2. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
