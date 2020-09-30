@@ -38,10 +38,6 @@ header {
 
 .header__navbar_middle {
   padding: 2px 11px 0 0;
-
-  &:hover {
-    cursor: pointer;
-  }
 }
 
 .header__navbar_right {
@@ -287,41 +283,47 @@ main {
   }
 }
 
-.asideheading {
+//ASIDE ITEM EDITOR'S PICKS
+
+.editors-pick {
+  padding-top: 50%;
+  width: 20%;
+}
+
+.editors-pick__title {
+  width: 100%;
   padding: 0 0 10px 0;
   margin: 0 0 13px 0;
-  border-bottom: 1px solid gray;
-
-  h5 {
-    display: inline-block;
-    color: black;
-    //font-family: serif;
-    //font-size: 20px;
-    font-weight: 600;
-  }
-}
-
-.aside__body_item {
-  display: flex;
-  margin: 10px 0 0 0;
-}
-
-.body__item_left {
-  flex: 1 1 30%;
-}
-
-.body__item_right {
+  border-bottom: 1px solid rgb(204, 194, 194);
   display: inline-block;
-  padding: 10px 0 0 0;
-  flex: 1 1 60%;
+  color: black;
+  font-weight: 600;
+}
 
-  .linkaside {
-    color: #333;
+.item__title {
+  padding: 5px 0 0 10px;
+}
 
-    &:hover {
+.editors-pick__item {
+  display: flex;
+  padding: 10px 0 10px 10px;
+
+  &:hover {
+    cursor: pointer;
+
+    .item__title {
       text-decoration: underline;
     }
   }
+}
+
+.item__img {
+  width: 75px;
+  height: 75px;
+}
+
+.asidelink {
+  color: rgb(39, 35, 35);
 }
 
 // Theory section block with background image and grid container over it
@@ -462,6 +464,15 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
+
+.finallink {
+  color: rgb(22, 22, 22);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .bottom {
   margin-left: 40px;
   margin-top: 10px;
@@ -469,25 +480,22 @@ main {
   justify-content: center;
   padding: 25px 0 25px 0;
   text-align: center;
-  border-top: 1px solid rgb(146, 138, 138);
+  border-top: 1px solid rgb(235, 225, 225);
 
   .bottomli {
     display: inline-block;
     padding-left: 13px;
     color: #666;
     font-size: 11px;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
 footer {
   width: 95%;
-
-  li {
-    &:hover {
-      text-decoration: underline;
-      cursor: pointer;
-    }
-  }
 }
 
 .Top {
@@ -498,25 +506,12 @@ footer {
   margin: 5px 0 10px 26px;
 }
 
-.Img {
-  margin-left: 0;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
 .Footer {
   display: flex;
   justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   line-height: 1.5em;
   font-weight: lighter;
-}
-
-.line {
-  border-top: #fff;
-  border-bottom: #fff;
 }
 
 .Go {

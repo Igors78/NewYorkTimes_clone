@@ -42,10 +42,6 @@ header {
   padding: 2px 11px 0 0;
 }
 
-.header__navbar_middle:hover {
-  cursor: pointer;
-}
-
 .header__navbar_right {
   padding: 7px 0 0 0;
 }
@@ -301,45 +297,47 @@ main {
   cursor: pointer;
 }
 
-.asideheading {
-  padding: 0 0 10px 0;
-  margin: 0 0 13px 0;
-  border-bottom: 1px solid gray;
+.editors-pick {
+  padding-top: 50%;
+  width: 20%;
 }
 
-.asideheading h5 {
+.editors-pick__title {
+  width: 100%;
+  padding: 0 0 10px 0;
+  margin: 0 0 13px 0;
+  border-bottom: 1px solid #ccc2c2;
   display: inline-block;
   color: black;
   font-weight: 600;
 }
 
-.aside__body_item {
+.item__title {
+  padding: 5px 0 0 10px;
+}
+
+.editors-pick__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px 0 0 0;
+  padding: 10px 0 10px 10px;
 }
 
-.body__item_left {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
+.editors-pick__item:hover {
+  cursor: pointer;
 }
 
-.body__item_right {
-  display: inline-block;
-  padding: 10px 0 0 0;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 60%;
-          flex: 1 1 60%;
-}
-
-.body__item_right .linkaside {
-  color: #333;
-}
-
-.body__item_right .linkaside:hover {
+.editors-pick__item:hover .item__title {
   text-decoration: underline;
+}
+
+.item__img {
+  width: 75px;
+  height: 75px;
+}
+
+.asidelink {
+  color: #272323;
 }
 
 .sectiontheory {
@@ -492,6 +490,14 @@ main {
   border-top: 1px solid gray;
 }
 
+.finallink {
+  color: #161616;
+}
+
+.finallink:hover {
+  text-decoration: underline;
+}
+
 .bottom {
   margin-left: 40px;
   margin-top: 10px;
@@ -503,7 +509,7 @@ main {
           justify-content: center;
   padding: 25px 0 25px 0;
   text-align: center;
-  border-top: 1px solid #928a8a;
+  border-top: 1px solid #ebe1e1;
 }
 
 .bottom .bottomli {
@@ -513,13 +519,12 @@ main {
   font-size: 11px;
 }
 
-footer {
-  width: 95%;
+.bottom .bottomli:hover {
+  text-decoration: underline;
 }
 
-footer li:hover {
-  text-decoration: underline;
-  cursor: pointer;
+footer {
+  width: 95%;
 }
 
 .Top {
@@ -534,14 +539,6 @@ footer li:hover {
   margin: 5px 0 10px 26px;
 }
 
-.Img {
-  margin-left: 0;
-}
-
-.Img:hover {
-  cursor: pointer;
-}
-
 .Footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,11 +548,6 @@ footer li:hover {
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   line-height: 1.5em;
   font-weight: lighter;
-}
-
-.line {
-  border-top: #fff;
-  border-bottom: #fff;
 }
 
 .Go {
