@@ -488,18 +488,33 @@ main {
   border-top: 1px solid gray;
 }
 
+footer {
+  width: 95%;
+}
+
+footer li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .Top {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: inherit;
+  padding: 0;
+  margin: 5px 0 10px 26px;
 }
 
 .Img {
-  margin-left: 40px;
+  margin-left: 0;
+}
+
+.Img:hover {
+  cursor: pointer;
 }
 
 .Footer {
@@ -521,6 +536,7 @@ main {
 .Go {
   font-size: 11px;
   margin-top: 10px;
+  color: #567b95;
 }
 
 .Aside {
@@ -535,26 +551,51 @@ main {
   font-size: smaller;
 }
 
-.Aside ul {
-  padding-left: 10px;
-}
-
 .bottom ul {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: smaller;
-  border-top: 1px solid grey;
-  padding-left: 5em;
-  padding-right: 5em;
-  padding-bottom: 2em;
+}
+
+.aside1 {
+  font-size: 15px;
+  padding-left: 10px;
+  line-height: 2;
+}
+
+.aside2 {
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .aside3 {
-  border-top: 1px solid black;
+  margin: 5px 0 10px 10px;
+  border-top: 1px solid #9b9595;
+  padding-top: 5px;
+}
+
+.bottom {
+  margin-left: 40px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px 0 25px 0;
+  text-align: center;
+  border-top: 1px solid #928a8a;
+}
+
+.bottom li {
+  display: inline-block;
+  padding-left: 13px;
+  color: #666;
+  font-size: 11px;
 }
 /*# sourceMappingURL=style.css.map */

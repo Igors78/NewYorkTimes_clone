@@ -458,14 +458,30 @@ main {
   border-top: 1px solid gray;
 }
 //FOOTER PART
+footer {
+  width: 95%;
+  li {
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
 .Top {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: inherit;
+  padding: 0;
+  margin: 5px 0 10px 26px;
 }
 
 .Img {
-  margin-left: 40px;
+  margin-left: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .Footer {
@@ -484,6 +500,7 @@ main {
 .Go {
   font-size: 11px;
   margin-top: 10px;
+  color: #567b95;
 }
 
 .Aside {
@@ -494,21 +511,45 @@ main {
 }
 
 .Aside ul {
-  padding-left: 10px;
-
+  //padding-left: 10px;
 }
 
 .bottom ul {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   font-size: smaller;
-  border-top: 1px solid grey;
-  padding-left:5em;
-  padding-right: 5em;
-  padding-bottom: 2em;
+}
+
+.aside1 {
+  font-size: 15px;
+  padding-left: 10px;
+  line-height: 2;
+}
+
+.aside2 {
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .aside3 {
-  border-top: 1px solid black;
+  margin: 5px 0 10px 10px;
+  border-top: 1px solid rgb(155, 149, 149);
+  padding-top: 5px;
+}
+
+.bottom {
+  margin-left: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0 25px 0;
+  text-align: center;
+  border-top: 1px solid rgb(146, 138, 138);
+
+  li {
+    display: inline-block;
+    padding-left: 13px;
+    color: #666;
+    font-size: 11px;
+  }
 }
