@@ -42,10 +42,6 @@ header {
   padding: 2px 11px 0 0;
 }
 
-.header__navbar_middle:hover {
-  cursor: pointer;
-}
-
 .header__navbar_right {
   padding: 7px 0 0 0;
 }
@@ -301,45 +297,47 @@ main {
   cursor: pointer;
 }
 
-.asideheading {
-  padding: 0 0 10px 0;
-  margin: 0 0 13px 0;
-  border-bottom: 1px solid gray;
+.editors-pick {
+  padding-top: 50%;
+  width: 20%;
 }
 
-.asideheading h5 {
+.editors-pick__title {
+  width: 100%;
+  padding: 0 0 10px 0;
+  margin: 0 0 13px 0;
+  border-bottom: 1px solid #ccc2c2;
   display: inline-block;
   color: black;
   font-weight: 600;
 }
 
-.aside__body_item {
+.editors-pick__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px 0 0 0;
+  padding: 10px 0 10px 10px;
 }
 
-.body__item_left {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
+.editors-pick__item:hover {
+  cursor: pointer;
 }
 
-.body__item_right {
-  display: inline-block;
-  padding: 10px 0 0 0;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 60%;
-          flex: 1 1 60%;
-}
-
-.body__item_right .linkaside {
-  color: #333;
-}
-
-.body__item_right .linkaside:hover {
+.editors-pick__item:hover .item__title {
   text-decoration: underline;
+}
+
+.item__img {
+  width: 75px;
+  height: 75px;
+}
+
+.item__title {
+  padding: 5px 0 0 10px;
+}
+
+.asidelink {
+  color: #272323;
 }
 
 .sectiontheory {
