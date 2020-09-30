@@ -495,10 +495,11 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: inherit;
 }
 
 .Img {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .Footer {
@@ -508,6 +509,7 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  line-height: 1.5em;
 }
 
 .line {
@@ -529,6 +531,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: smaller;
 }
 
 .Aside ul {
@@ -545,6 +548,9 @@ main {
           justify-content: space-between;
   font-size: smaller;
   border-top: 1px solid grey;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 2em;
 }
 
 .aside3 {
