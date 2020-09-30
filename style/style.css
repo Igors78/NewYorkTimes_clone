@@ -312,6 +312,10 @@ main {
   font-weight: 600;
 }
 
+.item__title {
+  padding: 5px 0 0 10px;
+}
+
 .editors-pick__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,10 +334,6 @@ main {
 .item__img {
   width: 75px;
   height: 75px;
-}
-
-.item__title {
-  padding: 5px 0 0 10px;
 }
 
 .asidelink {

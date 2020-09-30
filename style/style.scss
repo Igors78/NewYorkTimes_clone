@@ -298,6 +298,11 @@ main {
   display: inline-block;
   color: black;
   font-weight: 600;
+
+}
+
+.item__title {
+  padding: 5px 0 0 10px;
 }
 
 .editors-pick__item {
@@ -318,9 +323,6 @@ main {
   height: 75px;
 }
 
-.item__title {
-  padding: 5px 0 0 10px;
-}
 
 .asidelink {
   color: rgb(39, 35, 35);
