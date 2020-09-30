@@ -53,9 +53,9 @@ In this project is a New York Times Clone. In building this project, we made usr
 
 👤 **Adesuyi Adetola**
 
-- GitHub: [@Arinpe](https://github.com/Arinpe)
-- Twitter: [@_detola_](https://twitter.com/_detola_)
-- LinkedIn: [Adesuyi Adetola](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+- GitHub: [@Arinpe] (https://github.com/Arinpe)
+- Twitter:[@_detola_](https://twitter.com/_detola_)
+- LinkedIn:[Adesuyi Adetola] (https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
 
 ## Show your support
 
