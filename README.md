@@ -59,9 +59,9 @@ To get started with the Project:
 
 👤 **Adesuyi Adetola**
 
-- GitHub: [@Arinpe](https://github.com/Arinpe)
-- Twitter: [@_detola_](https://twitter.com/_detola_)
-- LinkedIn: [Adesuyi Adetola](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+- GitHub: [@Arinpe] (https://github.com/Arinpe)
+- Twitter:[@_detola_](https://twitter.com/_detola_)
+- LinkedIn:[Adesuyi Adetola] (https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
 
 ## 🤝 Contributing
 
