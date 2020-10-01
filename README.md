@@ -33,6 +33,12 @@ This project is the third in Microverse HTML/CSS curriculum. We made a clone of 
 
 ## Getting Started
 
+To get started with the Project:
+- Go to Github
+- Clone the repository
+- Open it in your text editor 
+- Open the index.html file and view it in your broswer
+
 ## Live Demo
 
 [Live Demo Link](https://igors78.github.io/NewYorkTimes_clone/)
@@ -47,8 +53,8 @@ This project is the third in Microverse HTML/CSS curriculum. We made a clone of 
 
 👤 **Igors Oleinikovs**
 
-- GitHub: [@github](https://github.com/Igors78)
-- Twitter: [@twitter](https://twitter.com/oleinikovs)
+- GitHub: [@Igors78](https://github.com/Igors78)
+- Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 👤 **Adesuyi Adetola**
@@ -56,6 +62,12 @@ This project is the third in Microverse HTML/CSS curriculum. We made a clone of 
 - GitHub: [@Arinpe](https://github.com/Arinpe)
 - Twitter: [@_detola_](https://twitter.com/_detola_)
 - LinkedIn: [Adesuyi Adetola](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
 
 ## Show your support
 
