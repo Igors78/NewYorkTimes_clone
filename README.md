@@ -35,7 +35,7 @@ This project is the third in Microverse HTML/CSS curriculum. We made a clone of 
 
 To get started with the Project:
 - Go to Github
-- Clone the repository
+- Clone the repository https://github.com/Igors78/NewYorkTimes_clone
 - Open it in your text editor 
 - Open the index.html file and view it in your broswer
 
